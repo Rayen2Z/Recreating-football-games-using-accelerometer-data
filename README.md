@@ -44,7 +44,7 @@ The detailed methodology and tests I did to implement this solution are availabl
 
 - ### Running the Code
 
-To run the code and generate a game sequence, use the provided shell script `init.sh`. 
+To run the code and generate a game sequence, please make sure to add the json files necessary (for example those provided in the task) in the `data` folder then use the provided shell script `init.sh`. 
 Call the shell script with the desired arguments for the starting action (`pass, run, walk, etc.`), game duration (`intger`), and game style(`attacking, neutral, defensive`).
 
 ```bash
@@ -135,5 +135,3 @@ In simulating a football game sequence, the choice of using a Markov Chain and a
     - Additional features and statistics that are essential for the Markov model, such as the average and standard deviation of norm values for each action, are calculated and stored for easy access.
 
 ---
-
-$
