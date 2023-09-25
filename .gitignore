@@ -1,0 +1,12 @@
+# .gitignore
+
+*.pdf
+*.json
+
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+venv/
+.DS_Store
